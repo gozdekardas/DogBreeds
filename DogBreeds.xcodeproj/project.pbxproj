@@ -13,8 +13,6 @@
 		BE126F24263EA1110004EAEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE126F22263EA1110004EAEF /* Main.storyboard */; };
 		BE126F26263EA1110004EAEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE126F25263EA1110004EAEF /* Assets.xcassets */; };
 		BE126F29263EA1110004EAEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE126F27263EA1110004EAEF /* LaunchScreen.storyboard */; };
-		BE126F34263EA1120004EAEF /* ImageReturnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE126F33263EA1120004EAEF /* ImageReturnTests.swift */; };
-		BE126F3F263EA1120004EAEF /* ImageReturnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE126F3E263EA1120004EAEF /* ImageReturnUITests.swift */; };
 		BE8DC07A263F0B4700ACFD6C /* DogApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8DC079263F0B4700ACFD6C /* DogApi.swift */; };
 		BE8DC07F263F112200ACFD6C /* DogImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8DC07E263F112200ACFD6C /* DogImage.swift */; };
 		BEB3891726412666003A822E /* DogBreeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB3891626412666003A822E /* DogBreeds.swift */; };
@@ -38,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BE126F19263EA1110004EAEF /* ImageReturn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageReturn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE126F19263EA1110004EAEF /* DogBreeds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogBreeds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE126F1C263EA1110004EAEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE126F1E263EA1110004EAEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BE126F20263EA1110004EAEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,12 +44,8 @@
 		BE126F25263EA1110004EAEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE126F28263EA1110004EAEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE126F2A263EA1110004EAEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE126F2F263EA1120004EAEF /* ImageReturnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageReturnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE126F33263EA1120004EAEF /* ImageReturnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageReturnTests.swift; sourceTree = "<group>"; };
-		BE126F35263EA1120004EAEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE126F3A263EA1120004EAEF /* ImageReturnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageReturnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE126F3E263EA1120004EAEF /* ImageReturnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageReturnUITests.swift; sourceTree = "<group>"; };
-		BE126F40263EA1120004EAEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE126F2F263EA1120004EAEF /* DogBreedsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogBreedsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE126F3A263EA1120004EAEF /* DogBreedsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogBreedsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8DC079263F0B4700ACFD6C /* DogApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogApi.swift; sourceTree = "<group>"; };
 		BE8DC07E263F112200ACFD6C /* DogImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImage.swift; sourceTree = "<group>"; };
 		BEB3891626412666003A822E /* DogBreeds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreeds.swift; sourceTree = "<group>"; };
@@ -85,9 +79,7 @@
 		BE126F10263EA1110004EAEF = {
 			isa = PBXGroup;
 			children = (
-				BE126F1B263EA1110004EAEF /* ImageReturn */,
-				BE126F32263EA1120004EAEF /* ImageReturnTests */,
-				BE126F3D263EA1120004EAEF /* ImageReturnUITests */,
+				BE126F1B263EA1110004EAEF /* DogBreeds */,
 				BE126F1A263EA1110004EAEF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,14 +87,14 @@
 		BE126F1A263EA1110004EAEF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BE126F19263EA1110004EAEF /* ImageReturn.app */,
-				BE126F2F263EA1120004EAEF /* ImageReturnTests.xctest */,
-				BE126F3A263EA1120004EAEF /* ImageReturnUITests.xctest */,
+				BE126F19263EA1110004EAEF /* DogBreeds.app */,
+				BE126F2F263EA1120004EAEF /* DogBreedsTests.xctest */,
+				BE126F3A263EA1120004EAEF /* DogBreedsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BE126F1B263EA1110004EAEF /* ImageReturn */ = {
+		BE126F1B263EA1110004EAEF /* DogBreeds */ = {
 			isa = PBXGroup;
 			children = (
 				BE126F51263EA6BE0004EAEF /* Controller */,
@@ -110,25 +102,7 @@
 				BE126F4F263EA6B10004EAEF /* Model */,
 				BE126F2A263EA1110004EAEF /* Info.plist */,
 			);
-			path = ImageReturn;
-			sourceTree = "<group>";
-		};
-		BE126F32263EA1120004EAEF /* ImageReturnTests */ = {
-			isa = PBXGroup;
-			children = (
-				BE126F33263EA1120004EAEF /* ImageReturnTests.swift */,
-				BE126F35263EA1120004EAEF /* Info.plist */,
-			);
-			path = ImageReturnTests;
-			sourceTree = "<group>";
-		};
-		BE126F3D263EA1120004EAEF /* ImageReturnUITests */ = {
-			isa = PBXGroup;
-			children = (
-				BE126F3E263EA1120004EAEF /* ImageReturnUITests.swift */,
-				BE126F40263EA1120004EAEF /* Info.plist */,
-			);
-			path = ImageReturnUITests;
+			path = DogBreeds;
 			sourceTree = "<group>";
 		};
 		BE126F4F263EA6B10004EAEF /* Model */ = {
@@ -164,9 +138,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BE126F18263EA1110004EAEF /* ImageReturn */ = {
+		BE126F18263EA1110004EAEF /* DogBreeds */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE126F43263EA1120004EAEF /* Build configuration list for PBXNativeTarget "ImageReturn" */;
+			buildConfigurationList = BE126F43263EA1120004EAEF /* Build configuration list for PBXNativeTarget "DogBreeds" */;
 			buildPhases = (
 				BE126F15263EA1110004EAEF /* Sources */,
 				BE126F16263EA1110004EAEF /* Frameworks */,
@@ -176,14 +150,14 @@
 			);
 			dependencies = (
 			);
-			name = ImageReturn;
+			name = DogBreeds;
 			productName = ImageReturn;
-			productReference = BE126F19263EA1110004EAEF /* ImageReturn.app */;
+			productReference = BE126F19263EA1110004EAEF /* DogBreeds.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BE126F2E263EA1120004EAEF /* ImageReturnTests */ = {
+		BE126F2E263EA1120004EAEF /* DogBreedsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE126F46263EA1120004EAEF /* Build configuration list for PBXNativeTarget "ImageReturnTests" */;
+			buildConfigurationList = BE126F46263EA1120004EAEF /* Build configuration list for PBXNativeTarget "DogBreedsTests" */;
 			buildPhases = (
 				BE126F2B263EA1120004EAEF /* Sources */,
 				BE126F2C263EA1120004EAEF /* Frameworks */,
@@ -194,14 +168,14 @@
 			dependencies = (
 				BE126F31263EA1120004EAEF /* PBXTargetDependency */,
 			);
-			name = ImageReturnTests;
+			name = DogBreedsTests;
 			productName = ImageReturnTests;
-			productReference = BE126F2F263EA1120004EAEF /* ImageReturnTests.xctest */;
+			productReference = BE126F2F263EA1120004EAEF /* DogBreedsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BE126F39263EA1120004EAEF /* ImageReturnUITests */ = {
+		BE126F39263EA1120004EAEF /* DogBreedsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE126F49263EA1120004EAEF /* Build configuration list for PBXNativeTarget "ImageReturnUITests" */;
+			buildConfigurationList = BE126F49263EA1120004EAEF /* Build configuration list for PBXNativeTarget "DogBreedsUITests" */;
 			buildPhases = (
 				BE126F36263EA1120004EAEF /* Sources */,
 				BE126F37263EA1120004EAEF /* Frameworks */,
@@ -212,9 +186,9 @@
 			dependencies = (
 				BE126F3C263EA1120004EAEF /* PBXTargetDependency */,
 			);
-			name = ImageReturnUITests;
+			name = DogBreedsUITests;
 			productName = ImageReturnUITests;
-			productReference = BE126F3A263EA1120004EAEF /* ImageReturnUITests.xctest */;
+			productReference = BE126F3A263EA1120004EAEF /* DogBreedsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -239,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BE126F14263EA1110004EAEF /* Build configuration list for PBXProject "ImageReturn" */;
+			buildConfigurationList = BE126F14263EA1110004EAEF /* Build configuration list for PBXProject "DogBreeds" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -252,9 +226,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BE126F18263EA1110004EAEF /* ImageReturn */,
-				BE126F2E263EA1120004EAEF /* ImageReturnTests */,
-				BE126F39263EA1120004EAEF /* ImageReturnUITests */,
+				BE126F18263EA1110004EAEF /* DogBreeds */,
+				BE126F2E263EA1120004EAEF /* DogBreedsTests */,
+				BE126F39263EA1120004EAEF /* DogBreedsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -304,7 +278,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE126F34263EA1120004EAEF /* ImageReturnTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +285,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE126F3F263EA1120004EAEF /* ImageReturnUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,12 +293,12 @@
 /* Begin PBXTargetDependency section */
 		BE126F31263EA1120004EAEF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BE126F18263EA1110004EAEF /* ImageReturn */;
+			target = BE126F18263EA1110004EAEF /* DogBreeds */;
 			targetProxy = BE126F30263EA1120004EAEF /* PBXContainerItemProxy */;
 		};
 		BE126F3C263EA1120004EAEF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BE126F18263EA1110004EAEF /* ImageReturn */;
+			target = BE126F18263EA1110004EAEF /* DogBreeds */;
 			targetProxy = BE126F3B263EA1120004EAEF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -474,12 +446,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34CL73NM7C;
-				INFOPLIST_FILE = ImageReturn/Info.plist;
+				INFOPLIST_FILE = DogBreeds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gk.ImageReturn;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gk.DogBreeds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -493,12 +465,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34CL73NM7C;
-				INFOPLIST_FILE = ImageReturn/Info.plist;
+				INFOPLIST_FILE = DogBreeds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gk.ImageReturn;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gk.DogBreeds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -522,7 +494,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageReturn.app/ImageReturn";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DogBreeds.app/DogBreeds";
 			};
 			name = Debug;
 		};
@@ -543,7 +515,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageReturn.app/ImageReturn";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DogBreeds.app/DogBreeds";
 			};
 			name = Release;
 		};
@@ -588,7 +560,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BE126F14263EA1110004EAEF /* Build configuration list for PBXProject "ImageReturn" */ = {
+		BE126F14263EA1110004EAEF /* Build configuration list for PBXProject "DogBreeds" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BE126F41263EA1120004EAEF /* Debug */,
@@ -597,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE126F43263EA1120004EAEF /* Build configuration list for PBXNativeTarget "ImageReturn" */ = {
+		BE126F43263EA1120004EAEF /* Build configuration list for PBXNativeTarget "DogBreeds" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BE126F44263EA1120004EAEF /* Debug */,
@@ -606,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE126F46263EA1120004EAEF /* Build configuration list for PBXNativeTarget "ImageReturnTests" */ = {
+		BE126F46263EA1120004EAEF /* Build configuration list for PBXNativeTarget "DogBreedsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BE126F47263EA1120004EAEF /* Debug */,
@@ -615,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE126F49263EA1120004EAEF /* Build configuration list for PBXNativeTarget "ImageReturnUITests" */ = {
+		BE126F49263EA1120004EAEF /* Build configuration list for PBXNativeTarget "DogBreedsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BE126F4A263EA1120004EAEF /* Debug */,
